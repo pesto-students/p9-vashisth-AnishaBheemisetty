@@ -70,5 +70,14 @@ It is a hierarchical structure as elements in a Tree are arranged in multiple le
 In the Tree data structure, the topmost node is known as a root node. Each node contains some data, and data can be of any type. 
 In the above tree structure, the node contains the name of the employee, so the type of data would be a string.
 Each node contains some data and the link or reference of other nodes that can be called children.
+
+Order of script processing:-
+In order to assess the consequences of any such decision, it helps to understand how browsers work: When the browser processes an HTML document, it does so from top to bottom. Upon encountering a <script> tag, it halts (“blocks”) further processing[2] in order to download the referenced script file. Only after that download has completed and the respective JavaScript code has been processed, HTML processing continues.
+
+DOM Layout:-
+The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree.Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree; with them one can change the structure, style or content of a document.Nodes can have event handlers attached to them. Once an event is triggered, the event handlers get executed.
+
+DOM painting:-
+Browser uses dom to decide what to display. In react, this is referred to as painting, because whenever something is added to a dom, browser has to re-paint the screen.Browser computes the geometry of the layout and its elements based on the render tree. Browser paints pixel by pixel to create the visual representation we see on the screen.
   
 
